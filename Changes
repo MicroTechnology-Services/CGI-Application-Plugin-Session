@@ -1,6 +1,8 @@
 Revision history for Perl extension CGI::Application::Plugin::Session.
 
 {{ $NEXT }}
+    - Fix test fail due to date format changes in CGI::Cookie 4.58
+      (RT#149959 Slaven Rezić)
 
 1.05      2013-12-21 11:31:00 America/Chicago
     - Stop depending on ->DESTROY to call ->flush (reported by Gareth Tunley)
