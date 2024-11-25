@@ -1,6 +1,8 @@
 Revision history for Perl extension CGI::Application::Plugin::Session.
 
 {{ $NEXT }}
+
+1.06      2024-11-25 15:50:21-06:00 America/Chicago
     - Fix test fail due to date format changes in CGI::Cookie 4.58
       (RT#149959 Slaven Rezić)
     - Use tmpdir for test session files
