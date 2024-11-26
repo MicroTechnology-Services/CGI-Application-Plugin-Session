@@ -6,7 +6,7 @@ use CGI::Application 3.21;
 use Carp qw(croak);
 use Scalar::Util ();
 
-# ABSTRACT: Plugin that adds session support to CGI::Application
+# ABSTRACT: Add session support to CGI::Application
 
 use strict;
 use vars qw($VERSION @EXPORT);
@@ -273,11 +273,6 @@ sub __locate_session_name {
 
 1;
 __END__
-
-=head1 NAME
-
-CGI::Application::Plugin::Session - Add CGI::Session support to CGI::Application
-
 
 =head1 SYNOPSIS
 
@@ -550,17 +545,4 @@ Allow a callback to be executed right after a session has been created
 
 L<CGI::Application>, L<CGI::Session>, perl(1)
 
-
-=head1 AUTHOR
-
-Cees Hek <ceeshek@gmail.com>
-
-
-=head1 LICENSE
-
-Copyright (C) 2004, 2005 Cees Hek <ceeshek@gmail.com>
-
-This library is free software. You can modify and or distribute it under the same terms as Perl itself.
-
 =cut
-
